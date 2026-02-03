@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Vansh Kansal</title>
+  <meta name="description" content="Selected engineering projects and research." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="projects">
+
+  <div class="page">
+    <nav class="navbar">
+      <div class="brand">
+        <span class="name">Vansh Kansal</span>
+        <span class="tag">Projects</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" data-page="home">Home</a>
+        <div class="nav-item">
+          <button class="nav-button" type="button" data-page="experience">Experience</button>
+          <div class="dropdown-menu">
+            <a href="experience.html">Overview</a>
+            <a href="experience-panasonic.html">Panasonic Life Solutions</a>
+            <a href="experience-axis.html">Axis Bank</a>
+            <a href="experience-mahashakti.html">Mahashakti Energy</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <button class="nav-button" type="button" data-page="projects">Projects</button>
+          <div class="dropdown-menu">
+            <a href="projects.html">Overview</a>
+            <a href="projects.html#project-1">Medical Drone Delivery</a>
+            <a href="projects.html#project-2">Wideband RF Synthesizer</a>
+            <a href="projects.html#project-3">UPI Research Study</a>
+          </div>
+        </div>
+        <a href="education.html" data-page="education">Education</a>
+        <a href="leadership.html" data-page="leadership">Leadership</a>
+        <a href="contact.html" data-page="contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-card">
+        <p class="kicker">Systems + Research</p>
+        <h1 class="headline">Projects that turn <span>theory into hardware</span> and measurable outcomes.</h1>
+        <p class="tagline">Work spans autonomous delivery, RF systems, and data‑driven research on financial infrastructure.</p>
+      </div>
+      <img class="hero-image" src="assets/drone.svg" alt="Medical drone visual" />
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Project Menu</h2>
+      <div class="menu" role="tablist" aria-label="Project menu">
+        <div class="menu-list">
+          <button class="menu-btn" role="tab" aria-selected="true" aria-controls="project-1" id="project-tab-1">Medical Drone Delivery</button>
+          <button class="menu-btn" role="tab" aria-selected="false" aria-controls="project-2" id="project-tab-2">Wideband RF Synthesizer</button>
+          <button class="menu-btn" role="tab" aria-selected="false" aria-controls="project-3" id="project-tab-3">UPI Research Study</button>
+        </div>
+        <div class="menu-panel" role="tabpanel" id="project-1" aria-labelledby="project-tab-1">
+          <h3>Medical Drone for Emergency Supply Delivery</h3>
+          <span>PEC · Jul 2025 – Dec 2025</span>
+          <ul>
+            <li>Designed and assembled a multi‑rotor delivery system for remote medical dispatch.</li>
+            <li>Integrated ESP‑based controller, GNSS module with ceramic antenna, and iBus receiver.</li>
+            <li>Implemented navigation, stabilization, and payload handling logic.</li>
+            <li>Led hardware integration, debugging, and reliability validation cycles.</li>
+          </ul>
+        </div>
+        <div class="menu-panel" role="tabpanel" id="project-2" aria-labelledby="project-tab-2" hidden>
+          <h3>Wideband RF Synthesizer (ADF4351)</h3>
+          <span>PEC · Jul 2025 – Dec 2025</span>
+          <ul>
+            <li>Designed a PLL‑based RF synthesizer from 100 MHz to 8 GHz.</li>
+            <li>Built mixed‑signal system with ESP32 control over SPI.</li>
+            <li>Engineered low‑noise power distribution, impedance matching, and DC blocking.</li>
+            <li>Analyzed lock behavior, tuning stability, and signal purity.</li>
+          </ul>
+        </div>
+        <div class="menu-panel" role="tabpanel" id="project-3" aria-labelledby="project-tab-3" hidden>
+          <h3>UPI Growth Trajectory Research</h3>
+          <span>PEC Finance Course · Jul 2024 – Dec 2024</span>
+          <ul>
+            <li>Studied growth patterns of Unified Payments Interface transactions in India.</li>
+            <li>Contributed to research titled “Enhancing the Total Volume of Unified Payments Interface.”</li>
+            <li>Analyzed trend data to support findings and conclusions.</li>
+            <li>Documented insights for academic presentation and review.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Project Gallery</h2>
+      <div class="grid-3">
+        <img class="photo" src="assets/drone.svg" alt="Drone project" />
+        <img class="photo" src="assets/rf.svg" alt="RF synthesizer" />
+        <img class="photo" src="assets/finance.svg" alt="UPI research" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Technical Themes</h2>
+      <div class="highlight-row">
+        <span class="tag">Embedded control & integration</span>
+        <span class="tag">RF signal stability & tuning</span>
+        <span class="tag">System testing & validation</span>
+        <span class="tag">Data analysis & reporting</span>
+        <span class="tag">Power distribution & conditioning</span>
+        <span class="tag">Operational reliability</span>
+      </div>
+    </section>
+
+    <div class="footer">
+      <span>Updated: February 3, 2026</span>
+      <span>Ask for detailed documentation</span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
